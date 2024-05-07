@@ -7,17 +7,16 @@
   </head>
   <body>
 
-    <!-- Inicio do HEADER -->
+    <!-- Início do HEADER -->
     <header>
-
       <!-- Primeira divisão dentro do HEADER -->
       <div>
         <img src="imagens/pinguim.jpg" alt="IMAGEM LOGO">
       </div>
 
-      <h1>EU AMO PINGUIM</h1>
+      <h1>Eu Amo Pinguim</h1>
 
-      <!-- Primeira divisão dentro do HEADER -->
+      <!-- Segunda divisão dentro do HEADER -->
       <div>
 
         <nav>
@@ -48,10 +47,10 @@
     </header>
     <!-- Fim do HEADER -->
 
-    <!-- DIV pai, que esta abraçando os dois itens (video e caixa de texto) -->
+    <!-- DIV pai, que está abraçando os dois itens (video e caixa de texto) -->
     <div>
 
-      <!-- DIV para armazenar o video -->
+      <!-- DIV para armazenar o vídeo  -->
       <div>
         <video autoplay muted loop id="myVideo">
           <source src="videos/video.mp4" type="video/mp4">
@@ -59,6 +58,7 @@
         </video>
       </div>
 
+      <!-- DIV para armazenar o Título, parágrafo e Botão  -->
       <div class="content">
         <h1>Heading</h1>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat
@@ -66,7 +66,7 @@
           maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore
           latine molestiae, ad mutat oblique delicatissimi pro.</p>
 
-        <!-- Botão esta recebendo e executando uma função do Javascript -->
+        <!-- Botão está recebendo e executando uma Função do Javascript. -->
         <button id="myBtn" onclick="myFunction()">Pause</button>
 
       </div>
@@ -76,21 +76,21 @@
     <!-- Sessão para inserir meus 3 parágrafos -->
     <section class="sessao1">
 
-      <!-- Em cada DIV existe um Parágrafo -->
+      <!-- Cada Div existe uma TAG de Parágrafo. -->
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
           maxime nemo eos ea ducimus labore et ut consectetur commodi
           consequatur. Sequi ratione, dignissimos illum numquam impedit omnis.
           Libero, voluptatibus sed?</p>
       </div>
-
+      <!-- Cada Div existe uma TAG de Parágrafo. -->
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
           maxime nemo eos ea ducimus labore et ut consectetur commodi
           consequatur. Sequi ratione, dignissimos illum numquam impedit omnis.
           Libero, voluptatibus sed?</p>
       </div>
-
+      <!-- Cada Div existe uma TAG de Parágrafo. -->
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
           maxime nemo eos ea ducimus labore et ut consectetur commodi
@@ -100,10 +100,33 @@
     </section>
 
     <div class="caixas">
-      <div class="efeito-img-topo">1</div>
-      <div class="efeito-img-topo">2</div>
-      <div class="efeito-img-topo">3</div>
+      <div class="img1 efeito-img-topo"><p>Grafipel</p></div>
+      <div class="img2 efeito-img-topo"><p>Dolce Bruschi</p></div>
+      <div class="img3 efeito-img-topo">3</div>
     </div>
+
+    <section class="sessao2">
+      <div class="form">
+        <form action="">
+          <h2>Formulario de Consulta</h2>
+            <label for="Nome">Nome Completo</label>
+            <input type="text" placeholder="Digite seu nome...">
+            <br>
+            <label for="telefone">Telefone</label>
+            <input type="text" placeholder="Digite seu tel aqui...">
+          <br><br>
+            <textarea name="" id="textarea" placeholder="Comentarios"></textarea>
+        </form>
+      </div>
+      
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8763602424865!2d-46.44746607542306!3d-23.536948960694332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66bc8c86908b%3A0x36962a2d69f3db06!2sObra%20Social%20Dom%20Bosco!5e0!3m2!1spt-BR!2sbr!4v1714782593367!5m2!1spt-BR!2sbr"
+          width="400" height="300" style="border:0;" allowfullscreen
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+    </section>
 
     <div vw class="enabled">
       <div vw-access-button class="active"></div>
@@ -112,15 +135,22 @@
       </div>
     </div>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
-  </body> <!-- Fim do corpo da página -->
 
-  <div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.989095481582!2d-46.451535375423106!3d-23.53289461054559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66bc8c86908b%3A0x36962a2d69f3db06!2sObra%20Social%20Dom%20Bosco!5e0!3m2!1spt-BR!2sbr!4v1714782596695!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
+    <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 
     <script src="script.js"></script>
   </body>
+
+  <footer>
+    <div>
+      <a href="index.html">Voltar Para o Topo</a>
+    </div>
+
+    <div>
+      <img src="imagens/pinguim.jpg" alt="IMAGEM LOGO">
+    </div>
+
+  </footer>
 </html>
