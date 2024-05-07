@@ -15,6 +15,6 @@ function myFunction() { //Aqui criamos uma Função
 window.revelar = ScrollReveal({ reset: true });
 
 revelar.reveal('.efeito-img-topo', {
-  duration: 3000,
+  duration: 5000,
   distance: '150px'
 });
